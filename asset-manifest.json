@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9fbe91ab.css",
+    "main.js": "/static/js/main.9e69ec30.js",
+    "static/media/geco2.png": "/static/media/geco2.6666951d422122ac7033.png",
+    "static/media/icons8-chatgpt-384.png": "/static/media/icons8-chatgpt-384.f6c2b10eb2be1b51bebc.png",
+    "index.html": "/index.html",
+    "main.9fbe91ab.css.map": "/static/css/main.9fbe91ab.css.map",
+    "main.9e69ec30.js.map": "/static/js/main.9e69ec30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9fbe91ab.css",
+    "static/js/main.9e69ec30.js"
+  ]
+}

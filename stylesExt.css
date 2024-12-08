@@ -1,0 +1,37 @@
+
+ @font-face {
+  font-family: 'CodeCamelExt35';
+  font-style: light;
+  font-weight: 400;
+  src: url('chrome-extension://__MSG_@@extension_id__/Roboto-Medium-webfont.woff'); 
+ }
+
+
+.animacion-contenedorEXT35 {
+    width: 100%;
+    display: flex;
+    opacity: 0; /* Inicialmente invisible */
+    transform: translateY(20px); /* Desplazar hacia abajo al principio */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    /* Fondo verde poco oscuro */
+    background-color: rgba(0, 128, 128, 0.0);
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 15px; /* Añadir un poco de espacio interno al contenedor */
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0); /* Sombra exterior */
+    font-family: CodeCamelExt35;
+  }
+
+  /* Clase para animación de aparición */
+  .aparecer {
+    opacity: 1;
+    transform: translateY(0);
+    transition: text-shadow 0.3s ease, opacity 0.5s ease, transform 0.5s ease;
+  }
+  .oculto {
+    /* Agrega estilos para ocultar los elementos según tus necesidades */
+    display: none;
+  }
+
+  

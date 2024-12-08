@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Extensie Pop-up Dreapta Jos",
+  "version": "1.2",
+  "description": "Afișează un pop-up în colțul din dreapta jos al paginii web și folosește OpenAI pentru răspunsuri.",
+  "icons": {
+    "16": "geco2.png",
+    "48": "geco2.png",
+    "128": "geco2.png"
+  },
+  "permissions": ["scripting", "activeTab", "contextMenus", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "geco2.png"
+  },
+  "options_page": "options.html"
+}
